@@ -19,14 +19,14 @@ const Navbar = () => {
   return (
    
 
-      <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-black'>
+      <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
         <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Dj-B Global</h1>
         <ul className='hidden md:flex'>
-          <Link to="/"><li className='p-4'>Home</li></Link>
-          <Link><li className='p-4'>Company</li></Link>
-          <Link><li className='p-4'>Resources</li></Link>
-          <Link to='/about'><li className='p-4'>About</li></Link>
-          <Link to='/contact'><li className='p-4'>Contact</li></Link>
+          <Link to="/"><li className='p-4 hover:scale-110 duration-300'>Home</li></Link>
+          <Link><li className='p-4 hover:scale-110 duration-300'>Company</li></Link>
+          <Link><li className='p-4 hover:scale-110 duration-300'>Resources</li></Link>
+          <Link to='/about'><li className='p-4 hover:scale-110 duration-300'>About</li></Link>
+          <Link to='/contact'><li className='p-4 hover:scale-110 duration-300'>Contact</li></Link>
         </ul>
         <div onClick={handleNav} className='block md:hidden'>
 

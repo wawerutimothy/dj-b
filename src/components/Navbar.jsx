@@ -19,7 +19,7 @@ const Navbar = () => {
 
       <div className='flex justify-between items-center h-24  mx-auto px-2  w-full text-white cursor-pointer'>
         <img src={Logo} height={100} width={100} className=' bg-[#EFBD48] bg-transparent  rounded-full mr-2 ml-1' />
-        <h1 className='w-full text-3xl font-bold text-white'>DJB Global Company Limited</h1>
+        <h1 className='w-full text-3xl font-bold text-white'>DJB GLOBAL COMPANY LIMITED</h1>
         <ul className='hidden md:flex'>
           <Link to="/"><li className='p-4 hover:scale-110 duration-300'>Home</li></Link>
           {/*<Link><li className='p-4 hover:scale-110 duration-300'>Company</li></Link> */}
@@ -33,7 +33,7 @@ const Navbar = () => {
         </div>
         <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#EFBD48] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
 
-          <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>Dj-b Global</h1>
+          <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>DJB GLOBAL COMPANY LIMITED</h1>
           <Link to="/"><li className='p-4 border-b border-gray-600'>Home</li></Link>
           {/*<Link><li className='p-4 border-b border-gray-600'>Company</li></Link> */}
           <Link><li className='p-4 border-b border-gray-600'>Resources</li></Link>

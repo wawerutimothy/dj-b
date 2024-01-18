@@ -12,10 +12,10 @@ function About() {
     </div>
     <div class="sm:w-1/2 p-5">
         <div class="text">
-            <span class="text-gray-500 border-b-2 border-indigo-600 uppercase">About us</span>
-            <h2 class="my-4 font-bold text-3xl  sm:text-4xl ">About <span class="text-indigo-600">DJ-B Global</span>
+            <span class="text-white border-b-2 border-indigo-600  uppercase">About us</span>
+            <h2 class="my-4 font-bold text-3xl  sm:text-4xl ">About <span class="text-white">DJB Global COMPANY LTD</span>
             </h2>
-            <p class="text-gray-700">
+            <p class="text-white">
 
                 DJB Global Company Limited is a professional company licensed and registered in Uganda. 
                 We have been in the commodities business for over 8 years serving many clients from all over the world. 

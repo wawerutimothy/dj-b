@@ -16,8 +16,8 @@ function Contact() {
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                 </svg>
                 <div class="ml-4 text-md tracking-wide font-semibold w-40">
-                  DJ-B Global 
-                  Uganda
+                  DJB GLOBAL COMPANY LTD
+                  P.O. Box 148263 Kampala GPO Uganda
                 </div>            
 
               </div>
@@ -52,8 +52,8 @@ function Contact() {
               </div>
 
               <div class="w-full px-3">
-                <label for="grid-password" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"> Your Message </label>   
-                <textarea rows="10" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"></textarea>
+                <label for="grid-password" class="block uppercase tracking-wide text-gray-700  text-xs font-bold mb-2"> Your Message </label>   
+                <textarea rows="10" class="appearance-none block w-full bg-gray-800 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"></textarea>
                         
               </div>
 

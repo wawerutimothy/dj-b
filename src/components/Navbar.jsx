@@ -19,7 +19,7 @@ const Navbar = () => {
 
       <div className='flex justify-between items-center h-24  mx-auto px-2  w-full text-white cursor-pointer'>
         <img src={Logo} height={100} width={100} className=' bg-[#EFBD48] bg-transparent  rounded-full mr-2 ml-1' />
-        <h1 className='w-full text-3xl font-bold text-white'>Dj-B Global</h1>
+        <h1 className='w-full text-3xl font-bold text-white'>DJB Global Company Limited</h1>
         <ul className='hidden md:flex'>
           <Link to="/"><li className='p-4 hover:scale-110 duration-300'>Home</li></Link>
           {/*<Link><li className='p-4 hover:scale-110 duration-300'>Company</li></Link> */}

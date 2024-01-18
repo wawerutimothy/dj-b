@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/aboutlogo.jpg';
 
 function About() {
     
@@ -6,7 +7,7 @@ function About() {
     <div class="sm:flex items-center max-w-screen-xl">
     <div class="sm:w-1/2 p-10">
         <div class="image object-center text-center">
-            <img src="https://images.unsplash.com/photo-1609216970141-d981d693484a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+            <img src= {logo} alt='about Logo' />
         </div>
     </div>
     <div class="sm:w-1/2 p-5">

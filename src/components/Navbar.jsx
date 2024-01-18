@@ -14,9 +14,6 @@ const Navbar = () => {
     setNav(!nav);
 
   };
- 
- 
-
   return (
    
 
@@ -25,8 +22,8 @@ const Navbar = () => {
         <h1 className='w-full text-3xl font-bold text-white'>Dj-B Global</h1>
         <ul className='hidden md:flex'>
           <Link to="/"><li className='p-4 hover:scale-110 duration-300'>Home</li></Link>
-          <Link><li className='p-4 hover:scale-110 duration-300'>Company</li></Link>
-          <Link><li className='p-4 hover:scale-110 duration-300'>Resources</li></Link>
+          {/*<Link><li className='p-4 hover:scale-110 duration-300'>Company</li></Link> */}
+          <Link><li className='p-4 hover:scale-110 duration-300'>Resources</li></Link> 
           <Link to='/about'><li className='p-4 hover:scale-110 duration-300'>About</li></Link>
           <Link to='/contact'><li className='p-4 hover:scale-110 duration-300'>Contact</li></Link>
         </ul>
@@ -38,7 +35,7 @@ const Navbar = () => {
 
           <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>Dj-b Global</h1>
           <Link to="/"><li className='p-4 border-b border-gray-600'>Home</li></Link>
-          <Link><li className='p-4 border-b border-gray-600'>Company</li></Link>
+          {/*<Link><li className='p-4 border-b border-gray-600'>Company</li></Link> */}
           <Link><li className='p-4 border-b border-gray-600'>Resources</li></Link>
           <Link to="/about"><li className='p-4 border-b border-gray-600'>About</li></Link>
           <Link to='/contact'><li className='p-4'>Contact</li></Link>

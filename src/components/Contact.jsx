@@ -2,11 +2,11 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div class="relative flex items-top justify-center min-h-screen bg-white dark:bg-gray-900 sm:items-center sm:pt-0">
+    <div class="relative flex items-top justify-center min-h-screen bg-white bg-black sm:items-center sm:pt-0">
       <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
         <div class="mt-8 overflow-hidden">
           <div class="grid grid-cols-1 md:grid-cols-2">
-            <div class="p-6 mr-2 bg-gray-100 dark:bg-gray-800 sm:rounded-lg">
+            <div class="p-6 mr-2 bg-gray-100 bg-black sm:rounded-lg">
               <h1 class="text-4xl sm:text-5xl text-gray-800 dark:text-white font-extrabold tracking-tight">Get In Touch</h1>
               <p class="text-normal text-lg sm:text-2xl font-medium text-gray-600 dark:text-gray-400 mt-2"> Fill in the form to start a conversation</p>
 
@@ -54,6 +54,7 @@ function Contact() {
               <div class="w-full px-3">
                 <label for="grid-password" class="block uppercase tracking-wide text-gray-700  text-xs font-bold mb-2"> Your Message </label>   
                 <textarea rows="10" class="appearance-none block w-full bg-gray-800 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"></textarea>
+                
                         
               </div>
 
